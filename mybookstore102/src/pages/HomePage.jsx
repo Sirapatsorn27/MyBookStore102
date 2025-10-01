@@ -50,19 +50,19 @@ const HomePage = () => {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="relative bg-gradient-to-r from-viridian-600 to-green-700 text-black">
+      <section className="relative bg-gradient-to-r from-blue-600 to-red-700 text-white">
         <div className="container mx-auto px-4 py-24">
           <div className="max-w-3xl">
             <h1 className="text-5xl md:text-6xl font-bold mb-6 animate-fade-in">
-              ยินดีต้อนรับสู่ <span className="text-yellow-300">BookStore</span>
+              ยินดีต้อนรับสู่ <span className="text-yellow-300">BookStore eiei</span>
             </h1>
             <p className="text-xl mb-8 opacity-90">
               ค้นพบหนังสือที่คุณรัก จากคอลเล็กชันมากกว่า 10,000 เล่ม
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link to="/books" 
-                className="inline-flex items-center justify-center px-8 py-3 bg-white 
-                text-viridian-600 font-semibold rounded-lg hover:bg-gray-100 
+                className="inline-flex items-center justify-center px-8 py-3 bg-black
+                text-white font-semibold rounded-lg hover:bg-gray-100 
                 transform hover:scale-105 transition-all duration-200">
                 เลือกซื้อหนังสือ
                 <ArrowRightIcon className="ml-2 h-5 w-5" />
